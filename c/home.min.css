@@ -1,0 +1,161 @@
+#right-section-widgets {
+  width: 308px;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-orient: vertical;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+#right-section-widgets,
+.topSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-direction: normal;
+}
+.topSection {
+  background-color: #fff;
+  border-radius: 16px;
+  -webkit-box-shadow: 0 1px 4px 0 rgba(0, 106, 194, 0.2);
+  box-shadow: 0 1px 4px 0 rgba(0, 106, 194, 0.2);
+  width: 100%;
+  margin-bottom: 16px;
+  -webkit-box-orient: horizontal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+.topSection .vertical-separator {
+  width: 1px;
+  background-color: #ebf0f6;
+  border-radius: 0 16px 16px 0;
+}
+.topSection .page-shimmer {
+  margin: auto 44px;
+}
+.registerBar {
+  border-radius: 0 16px 16px 0;
+  width: 326px;
+}
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.footerGNBWrap {
+  clear: both;
+}
+.footerGNBWrap .stores.icons {
+  width: 126px;
+  height: 36px;
+}
+.headGNBWrap .headGNB .subMenu.c3 {
+  width: 500px;
+}
+.headGNBWrap .headGNB .subMenu.c2 {
+  width: 350px;
+}
+.headGNBWrap.fixed {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+.headGNBWrap.initial {
+  background: transparent;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.headGNBWrap.initial .headGNB [itemprop="logo"] {
+  background: url(../assets/images/naukri_Logo_white.911c7b34.png) no-repeat;
+  width: 181px;
+  height: 31px;
+  padding-left: 181px;
+}
+.headGNBWrap.initial .headGNB .topIcon {
+  background: url(../assets/images/comSprite_v5a.d53983c1.png) no-repeat;
+}
+.headGNBWrap.initial .headGNB .notify {
+  display: block;
+  background-position: -25px -55px;
+}
+.headGNBWrap.initial .headGNB li:hover .notify {
+  background-position: -25px -55px;
+}
+.headGNBWrap.initial .headGNB .menu li .subMenu.notification {
+  padding: 0;
+}
+.headGNBWrap.initial .headGNB .menu li .subMenu.notification ul:last-of-type {
+  padding: 15px;
+}
+.headGNBWrap.initial .midSec .mActive,
+.headGNBWrap.initial .midSec .mActive:hover,
+.headGNBWrap.initial .midSec li,
+.headGNBWrap.initial .midSec li:hover,
+.headGNBWrap.initial .rghtSec .mActive,
+.headGNBWrap.initial .rghtSec .mActive:hover,
+.headGNBWrap.initial .rghtSec li,
+.headGNBWrap.initial .rghtSec li:hover {
+  background: none;
+}
+.headGNBWrap.initial .midSec .mActive:hover .mTxt,
+.headGNBWrap.initial .midSec li:hover .mTxt,
+.headGNBWrap.initial .rghtSec .mActive:hover .mTxt,
+.headGNBWrap.initial .rghtSec li:hover .mTxt {
+  border-bottom-color: #fff;
+}
+.headGNBWrap.initial .midSec .mActive .mTxt,
+.headGNBWrap.initial .midSec li .mTxt,
+.headGNBWrap.initial .rghtSec .mActive .mTxt,
+.headGNBWrap.initial .rghtSec li .mTxt {
+  color: #fff;
+}
+.headGNBWrap.initial .midSec li.mActive .mTxt,
+.headGNBWrap.initial .rghtSec li.mActive .mTxt {
+  border-bottom: 4px solid #fff;
+}
+.naukriHomePageContainer {
+  width: 1280px;
+  margin: 104px auto auto;
+}
+.naukriHomePageContainer #google-client-wrapper {
+  position: absolute;
+  right: 0;
+  top: 115px;
+}
+.naukriHomePageContainer .topSection {
+  width: 100%;
+  min-height: 200px;
+}
+.naukriHomePageContainer .middleRightSection {
+  width: 100%;
+  min-height: 800px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.naukriHomePageContainer .wdgt-html {
+  width: 500px;
+  background-color: #adff2f;
+}
+.homepage-header {
+  position: absolute;
+  z-index: -1;
+  top: -2px;
+  width: 100%;
+}
+.homepage-header .homepagebg-image {
+  height: 259px;
+  width: 100%;
+}
+.homepage-header .homepagebg-image .img {
+  width: 100%;
+  height: 100%;
+}

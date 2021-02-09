@@ -1,0 +1,114 @@
+.privacyPolicy {
+  background-color: rgba(0, 0, 0, 0.8);
+  -webkit-box-shadow: 0 1px 9px 2px rgba(98, 98, 98, 0.25);
+  box-shadow: 0 1px 9px 2px rgba(98, 98, 98, 0.25);
+  position: fixed;
+  bottom: 0;
+  z-index: 99;
+  width: 100%;
+}
+.privacyPolicy .ppContainer {
+  padding-top: 7.25px;
+  padding-bottom: 7.25px;
+  width: 895px;
+  margin: auto;
+}
+.privacyPolicy .ppTxt {
+  color: #fff;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: left;
+  display: inline-block;
+}
+.privacyPolicy .ppTxt a {
+  color: #4a90e2;
+}
+.privacyPolicy button {
+  font: inherit;
+  display: inline-block;
+  margin-left: 60px;
+  height: 40.5px;
+  line-height: 42.5px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #4a90e2;
+  text-align: center;
+  letter-spacing: 0.5px;
+  -webkit-transition: 0.2s ease-out;
+  -o-transition: 0.2s ease-out;
+  transition: 0.2s ease-out;
+  cursor: pointer;
+  outline: 0;
+  border: none;
+  border-radius: 0;
+  padding: 0 2rem;
+  text-transform: uppercase;
+  vertical-align: middle;
+  -webkit-tap-highlight-color: transparent;
+}
+.app-install .header-shimmer {
+  height: 90vh;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 4px;
+  background: #fff;
+  padding: 24px;
+}
+.app-install .adds-shimmer {
+  height: 20em;
+}
+.app-install .shimmer-cont {
+  margin-top: 30px;
+}
+.app-install .animated-background {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-name: placeHolderShimmer;
+  animation-name: placeHolderShimmer;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  background: #f6f7f8;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(8%, #f4f5f7),
+    color-stop(18%, #e5e5e5),
+    color-stop(33%, #f4f5f7)
+  );
+  background: -o-linear-gradient(left, #f4f5f7 8%, #e5e5e5 18%, #f4f5f7 33%);
+  background: linear-gradient(90deg, #f4f5f7 8%, #e5e5e5 18%, #f4f5f7 33%);
+  background-size: 800px 104px;
+  position: relative;
+  height: 14px;
+  border-radius: 7px;
+}
+.app-install .animated-background:first-of-type {
+  width: 85%;
+}
+.app-install .animated-background:nth-of-type(2n),
+.app-install .animated-background:nth-of-type(3n) {
+  width: 70%;
+  margin-top: 10px;
+}
+@-webkit-keyframes placeHolderShimmer {
+  0% {
+    background-position: -200px 0;
+  }
+  to {
+    background-position: 468px 0;
+  }
+}
+@keyframes placeHolderShimmer {
+  0% {
+    background-position: -200px 0;
+  }
+  to {
+    background-position: 468px 0;
+  }
+}

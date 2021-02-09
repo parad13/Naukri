@@ -1,0 +1,406 @@
+.QuickSearchBand {
+  padding-top: 44px;
+  padding-left: 44px;
+  width: 954px;
+}
+.QuickSearchBand.truncate {
+  padding-top: 40px;
+}
+.QuickSearchBand.truncate .qsb-main-content {
+  margin-top: 20px;
+}
+.QuickSearchBand .qsb-header .qsb-header-text .inline {
+  display: inline-block;
+  color: #2d3a72;
+  font-family: Roboto;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 26px;
+}
+.QuickSearchBand .qsb-main-content {
+  margin-top: 36px;
+}
+.QuickSearchBand .qsb-main-content .search-btn,
+.QuickSearchBand .qsb-main-content .suggestor-location,
+.QuickSearchBand .qsb-main-content .suggestor-skill {
+  display: inline-block;
+  vertical-align: bottom;
+}
+.QuickSearchBand .qsb-main-content .suggestor-location,
+.QuickSearchBand .qsb-main-content .suggestor-skill {
+  margin-right: 8px;
+}
+.QuickSearchBand .qsb-main-content .suggestor-location .suggest,
+.QuickSearchBand .qsb-main-content .suggestor-skill .suggest {
+  background-color: #fff;
+  border: 1px solid #ced4dd;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 4px 0 rgba(0, 106, 194, 0.2);
+  box-shadow: 0 1px 4px 0 rgba(0, 106, 194, 0.2);
+}
+.QuickSearchBand .qsb-main-content .suggestor-location .suggest.err,
+.QuickSearchBand .qsb-main-content .suggestor-skill .suggest.err {
+  border: 1px solid #da534d !important;
+  animation: vibrate 0.4s;
+  -webkit-animation: vibrate 0.4s;
+}
+.QuickSearchBand .qsb-main-content .suggestor-location .suggest.err input,
+.QuickSearchBand .qsb-main-content .suggestor-skill .suggest.err input {
+  border: 0 !important;
+}
+.QuickSearchBand .qsb-main-content .suggestor-location .suggest .inpWrap,
+.QuickSearchBand .qsb-main-content .suggestor-skill .suggest .inpWrap {
+  padding-left: 54px;
+}
+.QuickSearchBand .qsb-main-content .suggestor-location .suggest .inpWrap input,
+.QuickSearchBand .qsb-main-content .suggestor-skill .suggest .inpWrap input {
+  height: 48px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  caret-color: #4a90e2;
+  color: #091e42;
+}
+.QuickSearchBand
+  .qsb-main-content
+  .suggestor-location
+  .suggest
+  .inpWrap
+  input::-webkit-input-placeholder,
+.QuickSearchBand
+  .qsb-main-content
+  .suggestor-skill
+  .suggest
+  .inpWrap
+  input::-webkit-input-placeholder {
+  color: #afb8c0;
+}
+.QuickSearchBand
+  .qsb-main-content
+  .suggestor-location
+  .suggest
+  .inpWrap
+  input::-moz-placeholder,
+.QuickSearchBand
+  .qsb-main-content
+  .suggestor-skill
+  .suggest
+  .inpWrap
+  input::-moz-placeholder {
+  color: #afb8c0;
+}
+.QuickSearchBand
+  .qsb-main-content
+  .suggestor-location
+  .suggest
+  .inpWrap
+  input:-ms-input-placeholder,
+.QuickSearchBand
+  .qsb-main-content
+  .suggestor-skill
+  .suggest
+  .inpWrap
+  input:-ms-input-placeholder {
+  color: #afb8c0;
+}
+.QuickSearchBand
+  .qsb-main-content
+  .suggestor-location
+  .suggest
+  .inpWrap
+  input::-ms-input-placeholder,
+.QuickSearchBand
+  .qsb-main-content
+  .suggestor-skill
+  .suggest
+  .inpWrap
+  input::-ms-input-placeholder {
+  color: #afb8c0;
+}
+.QuickSearchBand
+  .qsb-main-content
+  .suggestor-location
+  .suggest
+  .inpWrap
+  input::placeholder,
+.QuickSearchBand
+  .qsb-main-content
+  .suggestor-skill
+  .suggest
+  .inpWrap
+  input::placeholder {
+  color: #afb8c0;
+}
+.QuickSearchBand
+  .qsb-main-content
+  .suggestor-location
+  .suggest
+  .inpWrap
+  input::-ms-clear,
+.QuickSearchBand
+  .qsb-main-content
+  .suggestor-skill
+  .suggest
+  .inpWrap
+  input::-ms-clear {
+  display: none;
+}
+.QuickSearchBand .qsb-main-content .suggestor-location .suggest .sWrap,
+.QuickSearchBand .qsb-main-content .suggestor-skill .suggest .sWrap {
+  border: 0;
+}
+.QuickSearchBand .qsb-main-content .suggestor-location .suggest .sugCont,
+.QuickSearchBand .qsb-main-content .suggestor-skill .suggest .sugCont {
+  margin-left: -1px;
+  background-color: #fff;
+  -webkit-box-shadow: 0 1px 4px 0 rgba(0, 106, 194, 0.2);
+  box-shadow: 0 1px 4px 0 rgba(0, 106, 194, 0.2);
+  border: 1px solid #ebf0f6;
+  border-radius: 2px;
+  margin-top: 1px;
+}
+.QuickSearchBand
+  .qsb-main-content
+  .suggestor-location
+  .suggest
+  .sugCont
+  .sugTouple
+  .Sbtn,
+.QuickSearchBand
+  .qsb-main-content
+  .suggestor-skill
+  .suggest
+  .sugCont
+  .sugTouple
+  .Sbtn {
+  color: #091e42;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: auto;
+}
+.QuickSearchBand
+  .qsb-main-content
+  .suggestor-location
+  .suggest
+  .sugCont
+  .sugTouple
+  .Sbtn.sAct,
+.QuickSearchBand
+  .qsb-main-content
+  .suggestor-skill
+  .suggest
+  .sugCont
+  .sugTouple
+  .Sbtn.sAct {
+  background: #f4f5f7;
+}
+.QuickSearchBand .qsb-main-content .suggestor-location .naukicon,
+.QuickSearchBand .qsb-main-content .suggestor-skill .naukicon {
+  position: absolute;
+  font-size: 18px;
+  z-index: 1;
+  color: #7f8eaa;
+  margin-left: 18px;
+  margin-top: 17px;
+  cursor: auto;
+}
+.QuickSearchBand .qsb-main-content .suggestor-skill {
+  width: 440px;
+}
+.QuickSearchBand .qsb-main-content .suggestor-skill .suggest .sugCont {
+  width: 440px !important;
+}
+.QuickSearchBand .qsb-main-content .suggestor-location {
+  width: 280px;
+}
+.QuickSearchBand .qsb-main-content .suggestor-location .suggest .sugCont {
+  width: 280px !important;
+}
+.QuickSearchBand .qsb-main-content .search-btn .btn {
+  background-color: #4a90e2;
+  border-radius: 2px;
+  -webkit-box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
+  width: 142px;
+  height: 50px;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  text-align: center;
+  outline: none;
+  cursor: pointer;
+}
+.QuickSearchBand .qsb-main-content .error .erLbl {
+  display: inline-block;
+}
+.suggest {
+  background-color: #fff;
+}
+.suggest .sSearch {
+  background: url(../assets/images/arw.a6526bf2.png) no-repeat;
+  background-color: #3079ed;
+  width: 35px;
+  height: 35px;
+  background-position: 11px -12px;
+  border: 0;
+  float: right;
+  cursor: pointer;
+}
+.suggest .sSearch:hover {
+  background-color: #1e67db;
+}
+.suggest .sCross {
+  background: url(../assets/images/arw.a6526bf2.png) no-repeat;
+  height: 35px;
+  float: right;
+  color: #c4c4c4;
+  text-align: center;
+  background-position: 8px -37px;
+  display: none;
+  width: 30px;
+}
+.suggest .sCross:hover {
+  background-position: 8px -61px;
+  cursor: pointer;
+}
+.suggest .Sarw {
+  background: url(../assets/images/arw.a6526bf2.png) no-repeat;
+  background-position: 8px 9px;
+  height: 25px;
+  width: 25px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.suggest .Sarw + Sbtn {
+  position: relative;
+}
+.suggest ul {
+  margin: 0;
+}
+.suggest .sugInp {
+  padding: 6px 0;
+  border: 0;
+  outline: none;
+  width: 100%;
+  margin: 0;
+}
+.suggest .inpWrap {
+  padding: 0 35px 0 8px;
+}
+.suggest .Sdrop {
+  position: relative;
+  text-align: left;
+  width: 100%;
+}
+.suggest .Sdrop li {
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+.suggest .Sdrop .sAct {
+  background-color: #ececec;
+  color: #09c;
+}
+.suggest .Sdrop .category {
+  padding: 5px;
+  color: #ccc;
+}
+.suggest .Sdrop img {
+  position: absolute;
+  top: 2px;
+  left: 6px;
+  width: 40px;
+  height: 40px;
+}
+.suggest .Sdrop img + button {
+  padding: 0 0 0 55px;
+}
+.suggest .Sdrop .relHead {
+  background-color: #7c7cfc;
+  padding: 3px 6px;
+  color: #fff;
+  font-size: 14px;
+}
+.suggest .Sbtn {
+  height: 25px;
+  display: block;
+  word-wrap: break-word;
+  padding: 0 0 0 15px;
+  text-decoration: none;
+  line-height: 25px;
+  color: #000;
+  background: none;
+  text-align: left;
+  border: 0;
+  width: 100%;
+  cursor: pointer;
+}
+.suggest .suggest {
+  border: 0;
+  width: 100%;
+  outline: none;
+  padding: 10px 0;
+  margin: 0;
+}
+.suggest .suggestor {
+  width: 100%;
+  background-color: #fff;
+}
+.suggest .sugGrey {
+  color: grey;
+}
+.suggest .iconWrap {
+  position: absolute;
+  right: 0;
+}
+.suggest .sWrap {
+  border: 1px solid #ccc;
+  position: relative;
+  width: 100%;
+}
+.suggest .sugCont {
+  overflow-y: hidden;
+  visibility: hidden;
+  position: absolute;
+  background-color: #fff;
+  z-index: 9;
+  border: 1px solid #c5c5c5;
+  border-top: 0 solid #c5c5c5;
+}
+.suggest .liHover .Sbtn {
+  border-left: 5px solid #fff;
+  padding: 0;
+}
+.suggest .liHover .sAct {
+  border-left: 5px solid #00f;
+  background: none;
+  color: #000;
+}
+.suggest .nLoder {
+  background: url(../assets/images/anim_loading_16x16.1901c529.gif);
+  width: 16px;
+  height: 16px;
+  float: right;
+  margin: 10px 3px 0 5px;
+  display: none;
+}
+.suggest .wrapTable {
+  padding-right: 30px;
+}
+.suggest .wrapTable button {
+  width: 100%;
+}
+.suggest .slideDown {
+  visibility: visible;
+}
+.suggest .sAct .sugGrey {
+  color: #fff;
+}
